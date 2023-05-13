@@ -126,4 +126,45 @@ header{
     cursor: pointer;
 }
 
+.head-about{
+    background-image: url('../img/background1.jpg');
+    height: 1080px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    padding:200px 300px;
+}
+
+.head-about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    font-family: var(--borlow);
+    letter-spacing: 1px;
+}
+
+.head-about-content>p:nth-of-type(1){
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.head-about-content>p:nth-of-type(2){
+    font-weight: ;
+    font-size: 1.5em;
+}
+.head-about-content>p:nth-of-type(1){
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.head-about-content>p:nth-of-type(1){
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+
+
+
+
 
